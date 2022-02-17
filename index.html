@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <h1 class="text-center mt-2 mb-3 money-title">Your Money Claculation</h1>
+        <h1 class="text-center mt-2 mb-3 money-title">Claculation of Income and Expenditure</h1>
     </header>
     <main>
 
@@ -45,8 +45,9 @@
                                 <button id="calculate-btn" class="fs-5 btn btn-primary" type="button">Calculate</button>
                             </div>
                             <div class="total">
-                                <h5 class="text-center mt-3">Total Expenses:<span> 00</span></h5>
-                                <h5 class="text-center mt-3">Balance:<span> 00</span></h5>
+                                <h5 class="text-center mt-3">Total Expenses:<span id="total-expenses-span"> 00</span>
+                                </h5>
+                                <h5 class="text-center mt-3">Balance:<span id="balance"> 00</span></h5>
                             </div>
                             <div class="savings">
                                 <div class="row g-3 align-items-center">
@@ -60,7 +61,7 @@
                                         </h6>
                                     </div>
                                     <div class="col-auto">
-                                        <button class="btn btn-primary" type="button">Save</button>
+                                        <button class="btn btn-primary" type="button" id="save-button">Save</button>
                                     </div>
                                 </div>
                                 <div class="calculation-total">
