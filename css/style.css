@@ -1,14 +1,16 @@
 .money-title{
     padding: .5rem;
 }
+.pro-pic{
+    height: 40rem;
+}
 .claculation{
-    height: 30rem;
+    height: 40rem;
     
 }
 .input-field{
     border: none;
     background-color: rgb(236, 234, 234);
     margin-left: 0.5rem;
-    width: 50%;
     padding: .3rem;
 }
