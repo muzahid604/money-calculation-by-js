@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Income and Expenditure</title>
+    <link rel="shortcut icon" href="pro-1.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -13,6 +14,7 @@
 </head>
 
 <body>
+    <!-- title of calculation  -->
     <header>
         <h1 class="text-center mt-2 mb-3 money-title">Claculation of Income and Expenditure</h1>
     </header>
@@ -20,17 +22,30 @@
         <section class="my-5 ">
             <div class="container px-4">
                 <div class="row gx-5">
+
+                    <!-- calculation image  -->
+
                     <div class="col-md-6 col-sm-6 col-12">
                         <div class=" p-3"><img class="img-fluid pro-pic" src="pro-pic.jpg" alt=""></div>
                     </div>
+
+                    <!-- calculation part -->
+
+                    <br>
                     <div class="col-md-6 col-sm-6 col-12">
                         <div class="p-3 claculation">
                             <div>
+
+                                <!--income input  -->
+
                                 <h4 class="text-center">Income</h4>
                                 <h6 class="text-center m-4">Income : <input class="input-field" id="income-input"
                                         type="number"></h6>
                             </div>
-                            <div class="">
+
+                            <!-- Expenses inputs -->
+
+                            <div class="Expenses">
                                 <h4 class="text-center">Expenses</h4>
                                 <h6 class="text-center m-4 ">Food : <input class="input-field" id="food-input"
                                         type="number"></h6>
@@ -41,13 +56,22 @@
                                 </h6>
                             </div>
                             <div class="d-grid gap-2 col-4 mx-auto">
+
+                                <!-- calculation button  -->
+
                                 <button id="calculate-btn" class="fs-5 btn btn-primary" type="button">Calculate</button>
                             </div>
+
+                            <!-- total Expenses and balance -->
+
                             <div class="total">
                                 <h5 class="text-center mt-3">Total Expenses:<span id="total-expenses-span"> 00</span>
                                 </h5>
                                 <h5 class="text-center mt-3">Balance:<span id="balance"> 00</span></h5>
                             </div>
+
+                            <!-- savings part -->
+
                             <div class="savings">
                                 <div class="row g-3 align-items-center">
                                     <div class="col-auto">
@@ -60,9 +84,15 @@
                                         </h6>
                                     </div>
                                     <div class="col-auto">
+
+                                        <!-- Saving button  -->
+
                                         <button class="btn btn-primary" type="button" id="save-button">Save</button>
                                     </div>
                                 </div>
+
+                                <!-- calculation savings and Remaining balance -->
+
                                 <div class="calculation-total">
                                     <h5 class="text-center mt-3">Saving Amount:<span id="save-span"> 00</span></h5>
                                     <h5 class="text-center mt-3">Remaining Balance:<span id="remainig-span"> 00</span>
